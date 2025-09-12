@@ -86,38 +86,8 @@
                 <key>PayloadIdentifier</key>
                 <string>github.blazesnow.dnsSettings.360dns</string>
             </dict>
-            <!-- DNSPod -->
-            <dict>
-                <key>DNSSettings</key>
-                <dict>
-                    <key>AllowFailover</key>
-                    <false />
-                    <key>DNSProtocol</key>
-                    <string>HTTPS</string>
-                    <key>ServerAddresses</key>
-                    <array>
-                        <string>119.29.29.29</string>
-                    </array>
-                    <key>ServerName</key>
-                    <string>DNSPod</string>
-                    <key>ServerURL</key>
-                    <string>https://doh.pub/dns-query</string>
-                </dict>
-                <key>PayloadDisplayName</key>
-                <string>DNSPod</string>
-                <key>PayloadVersion</key>
-                <integer>1</integer>
-                <key>PayloadDescription</key>
-                <string>DNSPod</string>
-                <key>PayloadUUID</key>
-                <string>d35c29d2-0218-4968-9b94-60c3744c5ea3</string>
-                <key>PayloadType</key>
-                <string>com.apple.dnsSettings.managed</string>
-                <key>PayloadOrganization</key>
-                <string>https://doh.pub/dns-query</string>
-                <key>PayloadIdentifier</key>
-                <string>github.blazesnow.dnsSettings.dnspod</string>
-            </dict>
+            <!-- 腾讯DNSPod -->
+            <!-- 暂不可用 -->
         </array>
     </dict>
 </plist>
