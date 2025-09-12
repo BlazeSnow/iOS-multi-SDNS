@@ -13,7 +13,7 @@
         <key>PayloadType</key>
         <string>Configuration</string>
         <key>PayloadIdentifier</key>
-        <string>com.blazesnow.dnsSettings</string>
+        <string>github.blazesnow.dnsSettings</string>
         <key>PayloadContent</key>
         <array>
             <!-- 阿里云公共DNS（HTTPS） -->
@@ -49,7 +49,7 @@
                 <key>PayloadOrganization</key>
                 <string>alidns.com</string>
                 <key>PayloadIdentifier</key>
-                <string>com.blazesnow.dnsSettings.alidns</string>
+                <string>github.blazesnow.dnsSettings.alidns</string>
             </dict>
             <!-- 360安全DNS（HTTPS） -->
             <dict>
@@ -84,7 +84,7 @@
                 <key>PayloadOrganization</key>
                 <string>sdns.360.net</string>
                 <key>PayloadIdentifier</key>
-                <string>com.blazesnow.dnsSettings.360dns</string>
+                <string>github.blazesnow.dnsSettings.360dns</string>
             </dict>
         </array>
     </dict>
