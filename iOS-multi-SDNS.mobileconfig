@@ -32,24 +32,59 @@
                         <string>223.6.6.6</string>
                     </array>
                     <key>ServerName</key>
-                    <string>阿里云公共DNS</string>
+                    <string>阿里云公共DNS（HTTPS）</string>
                     <key>ServerURL</key>
                     <string>https://dns.alidns.com/dns-query</string>
                 </dict>
                 <key>PayloadDisplayName</key>
-                <string>阿里云公共DNS</string>
+                <string>阿里云公共DNS（HTTPS）</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadDescription</key>
-                <string>阿里云公共DNS</string>
+                <string>阿里云公共DNS（HTTPS）</string>
                 <key>PayloadUUID</key>
                 <string>dcbca434-1e7e-4eba-8367-7af1e12109ff</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadOrganization</key>
-                <string>alidns.com</string>
+                <string>https://dns.alidns.com/dns-query</string>
                 <key>PayloadIdentifier</key>
-                <string>github.blazesnow.dnsSettings.alidns</string>
+                <string>github.blazesnow.dnsSettings.alidns.https</string>
+            </dict>
+            <!-- 阿里云公共DNS（TLS） -->
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>AllowFailover</key>
+                    <false />
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>2400:3200::1</string>
+                        <string>2400:3200:baba::1</string>
+                        <string>223.5.5.5</string>
+                        <string>223.6.6.6</string>
+                    </array>
+                    <key>ServerName</key>
+                    <string>阿里云公共DNS（TLS）</string>
+                    <key>ServerURL</key>
+                    <string>dns.alidns.com</string>
+                </dict>
+                <key>PayloadDisplayName</key>
+                <string>阿里云公共DNS（TLS）</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadDescription</key>
+                <string>阿里云公共DNS（TLS）</string>
+                <key>PayloadUUID</key>
+                <string>d35c29d2-0218-4968-9b94-60c3744c5ea3</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadOrganization</key>
+                <string>dns.alidns.com</string>
+                <key>PayloadIdentifier</key>
+                <string>github.blazesnow.dnsSettings.alidns.tls</string>
             </dict>
             <!-- 360安全DNS（HTTPS） -->
             <dict>
@@ -67,24 +102,24 @@
                         <string>140.207.198.6</string>
                     </array>
                     <key>ServerName</key>
-                    <string>360安全DNS</string>
+                    <string>360安全DNS（HTTPS）</string>
                     <key>ServerURL</key>
                     <string>https://doh.360.cn/dns-query</string>
                 </dict>
                 <key>PayloadDisplayName</key>
-                <string>360安全DNS</string>
+                <string>360安全DNS（HTTPS）</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>PayloadDescription</key>
-                <string>360安全DNS</string>
+                <string>360安全DNS（HTTPS）</string>
                 <key>PayloadUUID</key>
                 <string>11580305-f5f0-4b9b-9e0c-a97303102597</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadOrganization</key>
-                <string>sdns.360.net</string>
+                <string>https://doh.360.cn/dns-query</string>
                 <key>PayloadIdentifier</key>
-                <string>github.blazesnow.dnsSettings.360dns</string>
+                <string>github.blazesnow.dnsSettings.360dns.https</string>
             </dict>
         </array>
     </dict>
