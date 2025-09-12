@@ -16,7 +16,7 @@
         <string>com.blazesnow.dnsSettings</string>
         <key>PayloadContent</key>
         <array>
-            <!-- 阿里云公共DNS -->
+            <!-- 阿里云公共DNS（HTTPS） -->
             <dict>
                 <key>DNSSettings</key>
                 <dict>
@@ -51,7 +51,7 @@
                 <key>PayloadIdentifier</key>
                 <string>com.blazesnow.dnsSettings.alidns</string>
             </dict>
-            <!-- 360安全DNS -->
+            <!-- 360安全DNS（HTTPS） -->
             <dict>
                 <key>DNSSettings</key>
                 <dict>
