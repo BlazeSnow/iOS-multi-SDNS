@@ -96,7 +96,7 @@
                     <string>HTTPS</string>
                     <key>ServerAddresses</key>
                     <array>
-                        <string>2402:4e00::</string>
+                        <string>2402:4e00:0000:0000:0000:0000:0000:0000</string>
                         <string>119.29.29.29</string>
                     </array>
                     <key>ServerName</key>
