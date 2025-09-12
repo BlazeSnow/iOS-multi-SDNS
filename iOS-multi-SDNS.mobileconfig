@@ -49,7 +49,7 @@
                 <key>PayloadOrganization</key>
                 <string>https://dns.alidns.com/dns-query</string>
                 <key>PayloadIdentifier</key>
-                <string>github.blazesnow.dnsSettings.alidns.https</string>
+                <string>github.blazesnow.dnsSettings.alidns</string>
             </dict>
             <!-- 360安全DNS -->
             <dict>
@@ -84,7 +84,42 @@
                 <key>PayloadOrganization</key>
                 <string>https://doh.360.cn/dns-query</string>
                 <key>PayloadIdentifier</key>
-                <string>github.blazesnow.dnsSettings.360dns.https</string>
+                <string>github.blazesnow.dnsSettings.360dns</string>
+            </dict>
+            <!-- AdGuard DNS -->
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>AllowFailover</key>
+                    <false />
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>2a10:50c0::ad1:ff</string>
+                        <string>2a10:50c0::ad2:ff</string>
+                        <string>94.140.14.14</string>
+                        <string>94.140.15.15</string>
+                    </array>
+                    <key>ServerName</key>
+                    <string>AdGuard DNS</string>
+                    <key>ServerURL</key>
+                    <string>https://dns.adguard-dns.com/dns-query</string>
+                </dict>
+                <key>PayloadDisplayName</key>
+                <string>AdGuard DNS</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadDescription</key>
+                <string>AdGuard DNS</string>
+                <key>PayloadUUID</key>
+                <string>11580305-f5f0-4b9b-9e0c-a97303102597</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadOrganization</key>
+                <string>https://dns.adguard-dns.com/dns-query</string>
+                <key>PayloadIdentifier</key>
+                <string>github.blazesnow.dnsSettings.adguard</string>
             </dict>
         </array>
     </dict>
