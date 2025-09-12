@@ -121,6 +121,41 @@
                 <key>PayloadIdentifier</key>
                 <string>github.blazesnow.dnsSettings.adguard</string>
             </dict>
+            <!-- AdGuard无过滤DNS -->
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>AllowFailover</key>
+                    <false />
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>2a10:50c0::1:ff</string>
+                        <string>2a10:50c0::2:ff</string>
+                        <string>94.140.14.140</string>
+                        <string>94.140.14.141</string>
+                    </array>
+                    <key>ServerName</key>
+                    <string>AdGuard无过滤DNS</string>
+                    <key>ServerURL</key>
+                    <string>https://unfiltered.adguard-dns.com/dns-query</string>
+                </dict>
+                <key>PayloadDisplayName</key>
+                <string>AdGuard无过滤DNS</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadDescription</key>
+                <string>AdGuard无过滤DNS</string>
+                <key>PayloadUUID</key>
+                <string>fd21c278-b446-4845-ac13-059a20bee34f</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadOrganization</key>
+                <string>https://unfiltered.adguard-dns.com/dns-query</string>
+                <key>PayloadIdentifier</key>
+                <string>github.blazesnow.dnsSettings.adguardunfiltered</string>
+            </dict>
         </array>
     </dict>
 </plist>
