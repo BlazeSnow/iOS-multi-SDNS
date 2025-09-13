@@ -1,0 +1,21 @@
+name: 测试配置文件
+
+on:
+  push:
+    branches:
+    - main
+    - dev
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: sh +x
+      run: chmod +x check.sh
+
+    - name: Quick validation
+      run: ./check.sh
+      env:
+        FILE: iOS-multi-SDNS.mobileconfig
