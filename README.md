@@ -4,8 +4,8 @@
 
 ## 目前支持的DNS提供商
 
-- 阿里云公共DNS
-- 360安全DNS
+- [阿里云公共DNS](https://www.alidns.com/)
+- [360安全DNS](https://sdns.360.net/)
 
 ## 使用方法
 
